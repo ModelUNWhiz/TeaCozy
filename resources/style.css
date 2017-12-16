@@ -9,7 +9,10 @@ body {
 }
 header {
   display: flex;
+  z-index: 10;
+  top: 0px;
   border-bottom: 1px solid seashell;
+  background-color: black;
   height: 69px;
   width: 100%;
   position: fixed;
@@ -37,19 +40,45 @@ nav {
 }
 .mission {
   display: flex;
-  top: 70px;
+  top: 62px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
   margin: 0px 30px;
   align-items: center;
 }
-#mission-text {
+.heading-text {
   z-index: 1;
   background-color: black;
   width: 100%;
 }
-#mission-text h2,h4{
+.heading-text h2,h4{
   display: block;
   margin: 15px 0px;
+}
+
+.tea-of-the-month {
+  display: flex;
+  top: 100px;
+  width: 1000px;
+  margin: 0px auto;
+  flex-direction: column;
+}
+.tea-of-the-month img {
+  height: 200px;
+  width: 300px;
+}
+.menu {
+  position: relative;
+  margin: 0px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.row div {
+  padding: 5px 15px;
+}
+.row h4 {
+  margin-top: 10px;
 }
