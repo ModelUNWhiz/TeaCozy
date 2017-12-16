@@ -37,14 +37,14 @@ nav {
 .container {
   display: flex;
   position: relative;
+  margin: 0px auto;
 }
 .mission {
   display: flex;
   top: 62px;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  margin: 0px 30px;
   align-items: center;
 }
 .heading-text {
@@ -58,10 +58,8 @@ nav {
 }
 
 .tea-of-the-month {
-  display: flex;
-  top: 100px;
+  top: 125px;
   width: 1000px;
-  margin: 0px auto;
   flex-direction: column;
 }
 .tea-of-the-month img {
@@ -81,4 +79,33 @@ nav {
 }
 .row h4 {
   margin-top: 10px;
+}
+
+.locations {
+  top: 180px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 550px;
+  width: 1200px;
+  flex-direction: column;
+}
+#locations-header h2 {
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+.locations-content {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  background-color: black;
+  width: 300px;
+  height: 275px;
+  opacity: 1;
+  margin: 15px 20px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.column h3 {
+  margin: 0px;
 }
